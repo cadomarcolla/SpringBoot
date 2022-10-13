@@ -1,13 +1,13 @@
-package com.marcolla.futurodev;
+package marcolla.projetoSpringBoot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FuturodevApplication {
+public class ProjetoSpringBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FuturodevApplication.class, args);
+		SpringApplication.run(ProjetoSpringBootApplication.class, args);
 	}
 
 }

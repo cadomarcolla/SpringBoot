@@ -1,10 +1,10 @@
-package com.marcolla.futurodev;
+package marcolla.projetoSpringBoot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FuturodevApplicationTests {
+class ProjetoSpringBootApplicationTests {
 
 	@Test
 	void contextLoads() {
