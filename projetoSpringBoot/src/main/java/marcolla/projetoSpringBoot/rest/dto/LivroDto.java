@@ -1,10 +1,19 @@
 package marcolla.projetoSpringBoot.rest.dto;
 
 public class LivroDto {
+    private String registro;
     private String nome;
     private String autor;
     private String edicao;
     private String editora;
+
+    public String getRegistro() {
+        return registro;
+    }
+
+    public void setRegistro(String registro) {
+        this.registro = registro;
+    }
 
     public String getNome() {
         return nome;
